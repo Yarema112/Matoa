@@ -1,0 +1,142 @@
+.wrapper {
+	min-height: 100vh;
+	background-color: rgb(75, 75, 75);
+	text-align: justify;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(206, 206, 206);
+	display: flex;
+	flex-flow: column;
+}
+
+[class*=__container] {
+	box-sizing: content-box;
+	max-width: 800px;
+	/*padding: 0px 15px;*/
+	margin: 0px auto;
+	background-color: rgb(103, 102, 102);
+	margin-bottom: 150px;
+}
+
+.header {}
+
+.main {
+	flex-grow: 1;
+}
+
+.promise {}
+
+.promise__container {}
+
+.promise__header {
+	margin-bottom: 60px;
+}
+
+.titles *:not(:last-child) {
+	margin: 0px 0px 30px 0px;
+}
+
+.titles__label {
+	background: url('../img/like.jpg') 2px 0px / 20px no-repeat;
+	padding: 0px 0px 0px 30px;
+}
+
+.titles__item {
+	font-size: 34px;
+}
+
+
+/* === */
+
+.promise__items {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -12px;
+	row-gap: 12px;
+
+}
+
+.promise__item {
+	border: 1px solid #000;
+	padding: 0 12px;
+}
+
+.item-promise {
+	display: flex;
+	align-items: flex-start;
+	/*background-color: rgba(128, 128, 128, 0.557);*/
+	flex: 1 1 33.33%;
+
+
+}
+
+.item-promise__icon {
+	width: 60px;
+	margin-right: 12px;
+}
+
+.item-promis__body {}
+
+.item-promise__title {}
+
+.item-title {}
+
+.item-promise__text {}
+
+.item-text {}
+
+/* ================================================================= */
+.services {}
+
+.services__container {}
+.services__header{
+	margin-bottom: 50px;
+}
+
+.services__items {
+	display: flex;
+	flex-flow: wrap;
+	text-align: center;
+	align-items: center;
+	flex: 1;
+
+}
+
+.services__item {
+	
+}
+
+.item-services {
+	display: flex;
+	flex: 1 1 200px;
+	flex-flow: column;
+	background-color: #f4f4f497;
+	color: #000;
+	
+}
+
+.item-services__icon img {
+	flex: 0 0 30px;
+	width: 100px;
+	margin-bottom: 20px;
+}
+
+.item-services__title {}
+
+.item-services__text {
+
+}
+
+.services__button {
+	align-self: center;
+	background-color: #f2726f;
+	border-radius: 8px;
+	text-align: center;
+	align-items: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 2;
+	padding: 5px 25px;
+
+}
